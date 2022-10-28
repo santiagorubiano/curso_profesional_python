@@ -10,7 +10,10 @@ def is_palindrome(string:str)-> bool:
 def run():
     print(is_palindrome("Ana"))
     print(is_palindrome(111))
+# lambda function 
 
+palindrome = lambda string : string== string[::-1]
+print(palindrome('ana'))
     
 if __name__ =="__main__":
     run()
